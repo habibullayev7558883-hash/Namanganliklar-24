@@ -1,0 +1,213 @@
+/* rubik-regular - cyrillic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v31-cyrillic-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-500 - cyrillic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v31-cyrillic-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-700 - cyrillic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rubik-v31-cyrillic-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* start header */
+
+input,
+button,
+a {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.header-bgcolor {
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    margin-right: 247px;
+}
+
+.header-icon {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #7296EC;
+}
+
+.header-item {
+    width: 69px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.header-item:nth-child(1) {
+    margin-right: 25px;
+}
+
+.header-logo {
+    margin-right: 35px;
+    width: 275px;
+    height: 45px;
+}
+
+.header-input {
+    display: block;
+    width: 275px;
+    border-radius: 60px;
+    padding: 15px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.header-button {
+    width: 70px;
+    display: flex;
+    gap: 2px;
+    background: #DCE6FF;
+    border-radius: 39px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header-button-uz {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.header-button-ru {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #A6A6A6;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.header-sign-link {
+    display: block;
+    width: 89px;
+    border-radius: 10px;
+    background: #7296EC;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+/* finish header */
+
+/* start nav */
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.nav-link {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+/* finish nav */
