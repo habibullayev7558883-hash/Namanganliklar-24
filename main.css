@@ -365,12 +365,13 @@ ul {
 /* start mir */
 
 .mir-item {
-    width: 707px;
+    width: 797px;
     display: flex;
     background-color: #F6F6F6;
     margin-bottom: 10px;
     border-radius: 15px;
 }
+
 
 .mir-text {
     width: 535px;
@@ -406,6 +407,7 @@ ul {
 }
 
 .mir-info {
+    display: flex;
     font-family: Rubik;
     font-weight: 400;
     font-size: 12px;
@@ -413,6 +415,34 @@ ul {
     line-height: 100%;
     letter-spacing: 0%;
     color: #5E5F61;
+    gap: 3px;
+    align-items: center;
+}
+
+.mir-info::before{
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/mir-1.png);
+    background-size: 20px;
+}
+
+.mir-item:nth-child(2) .mir-info::before{
+     display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/T-1234.png);
+    background-size: 20px;
+}
+
+.mir-item:nth-child(3) .mir-info::before{
+    background-image: url(./images/mir-3.png);
+}
+
+.mir-item:nth-child(4) .mir-info::before{
+    background-image: url(./images/mir-4.png);
 }
 
 
