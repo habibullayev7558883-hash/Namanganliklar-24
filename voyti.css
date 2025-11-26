@@ -258,6 +258,7 @@ ul {
     width: 494px;
     background-color: #F6F6F6;
     border-radius: 10px;
+    margin: 0;
 }
 
 .contact-wrapper {
@@ -313,3 +314,95 @@ ul {
     letter-spacing: 0%;
     color: #000000;
 }
+
+.contact-sing{
+    display: block;
+    width: 145px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #7297EF;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+padding-top: 17px;
+padding-bottom: 17px;
+margin-left: auto;
+margin-top: 20px;
+margin-bottom: 100px;
+}
+
+/* finish contact */
+
+
+/* strat footer */
+footer {
+    background-color: #7297EF;
+}
+
+.footer-title {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footertext {
+    width: 229px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-right: 203px;
+}
+
+.footerfirst {
+    display: flex;
+
+}
+
+.footer-item {
+    margin-top: 83px;
+}
+
+.footer-right3 {
+    display: flex;
+}
+
+.footer-list {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin-right: 100px;
+}
+
+.footer-tittle {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    width: 161px;
+    color: #FFFFFF;
+    margin-right: 662px;
+}
+
+.logos {
+    margin-top: 31px;
+    margin-right: 25px;
+}
+
+/* finish footer style */

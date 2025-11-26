@@ -215,6 +215,7 @@ text-decoration: none;
     .mir-item{
         width: 707px;
         display: flex;
+        align-items: center;
         background-color: #F6F6F6;
         margin-bottom: 10px;
         border-radius: 15px;
@@ -229,8 +230,6 @@ text-decoration: none;
         border-radius: 10px;
         margin-right: 15px;
         margin-left: 17px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .mir-title{
@@ -261,10 +260,49 @@ leading-trim: NONE;
 line-height: 100%;
 letter-spacing: 0%;
 color: #5E5F61;
+display: flex;
+align-items: center;
+gap: 10px;
     }
 
+
+    .mir-info::before{
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url(./images/1111.png);
+        border-radius: 5px;
+        background-size: 20px;
+    }
+
+    .mir-item:nth-child(2) .mir-info::before{
+        background-image: url(./images/2222.png);
+    }
+
+    .mir-item:nth-child(3) .mir-info::before{
+        background-image: url(./images/3333.png);
+    }
     
-    
+    .mir-item:nth-child(4) .mir-info::before{
+        background-image: url(./images/4444.png);
+    }
+
+    .mir-item:nth-child(5) .mir-info::before{
+        background-image: url(./images/5555.png);
+    }
+
+    .mir-item:nth-child(6) .mir-info::before{
+        background-image: url(./images/6666.png);
+    }
+
+    .mir-item:nth-child(7) .mir-info::before{
+        background-image: url(./images/7777.png);
+    }
+
+    .mir-item:nth-child(8) .mir-info::before{
+        background-image: url(./images/8888.png);
+    }
 
     .mir-btn{
         margin: 0;

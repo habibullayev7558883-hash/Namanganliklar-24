@@ -399,7 +399,29 @@ ul {
     letter-spacing: 0%;
     color: #5E5F61;
     padding-left: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.info-icon::before{                                      
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/digger.png);
+    border-radius: 5px;
+    background-size: 20px;
+}
+
+.info-item:nth-child(2) .info-icon::before{
+    background-image: url(./images/lenta.png);
+}
+
+.info-item:nth-child(3) .info-icon::before{
+    background-image: url(./images/trantas.png);
+}
+
 
 .info-title {
     font-family: Rubik;
